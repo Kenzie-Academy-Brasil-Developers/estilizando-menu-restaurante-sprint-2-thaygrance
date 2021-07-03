@@ -13,12 +13,13 @@ body {
 
 h1 {
     font-family: 'Bungee Inline';
-    font-size: 46px
+    font-size: 46px;
+    font-weight: lighter;
 }
 #menu {columns: 420px 2; column-gap: 60px;}
 section {margin-bottom: 20px; padding: 10px;}
-#starters {border-radius: 2px; border-style: dashed; border-color: black;}
-#desserts {border-radius: 2px; border-style: dashed; border-color: black;}
+#starters {border-radius: 2px; border-style: solid; border-color: black;}
+#desserts {border-radius: 2px; border-style: solid; border-color: black;}
 
 
 /* Show each of the section headings of the menu (e.g. "Starters") in uppercase. */

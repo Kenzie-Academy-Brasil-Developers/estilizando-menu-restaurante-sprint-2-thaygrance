@@ -15,6 +15,7 @@ h1
 {
     font-family: 'Supermercado One';
     font-size: 45px;
+    color: #5d4037;
 }
 
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
@@ -22,7 +23,12 @@ h1
 section {margin-bottom: 50px;}
 
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
-h2 {margin: 0; font-variant-caps: small-caps #6d4c41;}
+h2 {
+    margin: 0; 
+    color: #6d4c41;
+    font-variant: small-caps;
+}
+
 
 /* Make the name of each menu item appear in bold in a 20px size. */
 
@@ -36,4 +42,4 @@ dd {margin: 0 0 12px 0; display: flex;}
 .price {order: 2; padding-left: 10px; font-size: large; color:firebrick;}
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
-address {padding: 10px;border:2px dashed rosybrown}
+address {padding: 10px;border:2px dashed rosybrown;}
